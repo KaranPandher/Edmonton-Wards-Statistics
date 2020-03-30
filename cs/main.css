@@ -8,7 +8,7 @@
 .container{
     overflow: hidden; /* hides overflow of screen minimization */
     text-align: center;
-    background: -moz-linear-gradient(top, rgba(169,228,247,1) 0%, rgba(15,180,231,1) 100%); 
+
     /* Background images */
 }
 
