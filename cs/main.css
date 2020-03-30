@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300italic,500);
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Reset browser settings */ 
+
+.container{
+    overflow: hidden; /* hides overflow of screen minimization */
+    text-align: center;
+    background: -moz-linear-gradient(top, rgba(169,228,247,1) 0%, rgba(15,180,231,1) 100%); 
+    /* Background images */
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 120px;
+    margin: 20px 0px; 
+    font-weight: 100;
+}
+
+@media screen and (max-width: 500px) {
+    h1{
+        font-size: 48px;
+    }
+    .title ul li{
+        padding: 8px 0px; /* Crucial for mobile */
+    }
+    li a{
+        padding: 9px 10px; /* Cruical for mobile */ 
+    }
+    .title{
+        margin-top: 30px;
+    }
+    /* NEED #MAP CLASS ADDED HERE PLAY WITH NUMBERS.  
+    #map{
+        width: 100%;
+        margin-top: 25px; /* crucial 
+    }*/ 
+}
+
+.title ul li {
+    list-style: none; /* Removes bullet points */ 
+    font-family: 'Ubuntu';
+    display: inline-block; /* Horizontal display */ 
+    border: rgba(14,170,222,1) solid 3px; /* white border solid 3px thick */ 
+    border-radius: 45px; /* thickness of border */ 
+    padding: 15px 0px; /* padding */ 
+    margin: 5px; /* margin between all the words */ 
+}
+
+li a {
+    text-decoration: none;
+    color: red;/* color of the text */ 
+    padding: 15px 25px; /* padding of writing increases = border increases */ 
+}
+li a:hover { /* Settings for hovering over the list characers */ 
+    background: purple;
+    color: #1db8e8;
+    border-radius: 44px;
+}
+/*
+#map{
+    margin-top: 40px;
+}
+*/

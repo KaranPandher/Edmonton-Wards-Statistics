@@ -7,16 +7,39 @@
 
     <!-- CSS Styles -->
     <link rel = "stylesheet" type = "text/css" href = "./cs/main.css">
+    <link rel = "stylesheet" type = "text/css" href = "./vendors/Bootstrap/css/bootstrap.min.css">
 
     <!-- Vendors -->
     <script type = "text/javascript" src = "js/jQuery.min.js"></script>
-    <script type = "text/javascript" src = ""></script>
+    <script type = "text/javascript" src = "./vendors/Bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Javascript -->
     <script type = "text/javascript" src ="./js/scripts.js" defer></script>
     
 </head>
 <body>
-
+    <div class = "container">
+        <h1>Interactive Map</h1>
+        <div class = "title">
+            <ul class = "wardheadings">
+                <li><a class = "Ward1" href = "#">Ward 1</a></li>
+                <li><a class = "Ward2" href = "#">Ward 2</a></li>
+                <li><a class = "Ward3" href = "#">Ward 3</a></li>
+                <li><a class = "Ward4" href = "#">Ward 4</a></li>
+                <li><a class = "Ward5" href = "#">Ward 5</a></li>
+                <li><a class = "Ward6" href = "#">Ward 6</a></li>
+                <li><a class = "Ward7" href = "#">Ward 7</a></li>
+                <li><a class = "Ward8" href = "#">Ward 8</a></li>
+                <li><a class = "Ward9" href = "#">Ward 9</a></li>
+                <li><a class = "Ward10" href = "#">Ward 10</a></li>
+                <li><a class = "Ward11" href = "#">Ward 11</a></li>
+                <li><a class = "Ward12" href = "#">Ward 12</a></li>
+            </ul>
+        </div>
+        <img id = "map" src = "images/Map_Branch_Locations_Municipal_Blog_850x1000_Oct2017_v5.png">
+        <map name = "map">
+            <area onmouseover onmouseout shape = "poly" coords = "59,397,93,396,134,377,188,373,219,381,278,437,277,488,293,499,293,540,328,556,330,599,201,595,195,623,59,625" alt = "Ward1" href = "./images/Ward 1.png">
+        </map>
+    </div>
 </body>
 </html>
