@@ -17,6 +17,7 @@ h1 {
     font-size: 120px;
     margin: 20px 0px; 
     font-weight: 100;
+    color: rgba(14,170,222,1)
 }
 
 @media screen and (max-width: 500px) {
@@ -32,12 +33,12 @@ h1 {
     .title{
         margin-top: 30px;
     }
-    /* NEED #MAP CLASS ADDED HERE PLAY WITH NUMBERS.  
     #map{
         width: 100%;
-        margin-top: 25px; /* crucial 
-    }*/ 
-}
+        margin-top: 25px; /* crucial */
+    }
+    
+} 
 
 .title ul li {
     list-style: none; /* Removes bullet points */ 
@@ -51,11 +52,11 @@ h1 {
 
 li a {
     text-decoration: none;
-    color: red;/* color of the text */ 
+    color: rgba(14,170,222,1);/* color of the text */ 
     padding: 15px 25px; /* padding of writing increases = border increases */ 
 }
 li a:hover { /* Settings for hovering over the list characers */ 
-    background: purple;
+    background: lightblue;
     color: #1db8e8;
     border-radius: 44px;
 }

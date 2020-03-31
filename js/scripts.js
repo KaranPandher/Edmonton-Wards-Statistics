@@ -18,6 +18,10 @@ precarica([
     './images/Ward 12.png'
 ]); 
 
+function Popup(text) {
+    console.log(text)
+  }
+
 jQuery(document).ready(function () {
     $('.Ward1').mouseout(function(){
         $("#map").attr('src', './images/Ward 1.png');
@@ -77,7 +81,7 @@ jQuery(document).ready(function () {
         $("#map").attr('src', './images/Ward 10.png');
     }),
     $('.Ward10').mouseover( function(){
-    $("#map").attr('src', './images/Ward 10.png');
+        $("#map").attr('src', './images/Ward 10.png');
     }),
     $('.Ward11').mouseout(function(){
         $("#map").attr('src', './images/Ward 11.png');
